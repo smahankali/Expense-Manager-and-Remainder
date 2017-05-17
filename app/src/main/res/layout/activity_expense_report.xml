@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="@dimen/activity_vertical_margin"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:paddingTop="75dp"
+                        android:focusable="true"
+                        android:background="#B5C1AD"
+                        android:focusableInTouchMode="true"
+                        >
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/Date1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:hint="@string/FromDateHint"
+                android:textSize="15sp"
+                android:layout_toLeftOf="@+id/Date2" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/Date2"
+                android:hint="@string/ToDateHint"
+                android:layout_alignTop="@+id/Date1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/BtnGenerateReport"
+                android:id="@+id/report"
+                android:contextClickable="false"
+                android:onClick="GenerateReport"
+                android:layout_below="@+id/Date1"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/BtnRemove"
+                android:id="@+id/btnRemove"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:enabled="false"
+                android:onClick="RemoveItem" />
+            <!--  Recycler View  -->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/report"
+                android:layout_weight="1"
+                android:scrollbars="none" />
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+

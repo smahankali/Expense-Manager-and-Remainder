@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "560500170904",
+    "firebase_url": "https://billsmanagerandreminder.firebaseio.com",
+    "project_id": "billsmanagerandreminder",
+    "storage_bucket": "billsmanagerandreminder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560500170904:android:477b1e612258a755",
+        "android_client_info": {
+          "package_name": "com.example.shrav.expensemanagerandreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560500170904-rk8on3kf0pjkq4mecrm99c9aoos7dm40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [{ "current_key": "" }],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/display_expense"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Save Payment"/>
+        <item
+            android:id="@+id/expense_report"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Expense Report"/>
+
+    </group>
+
+    <item android:title="Bill Reminder">
+        <menu>
+            <item
+                android:id="@+id/set_reminder"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Set Reminder"/>
+            <item
+                android:id="@+id/display_reminder"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Display Reminders"/>
+        </menu>
+    </item>
+
+</menu>

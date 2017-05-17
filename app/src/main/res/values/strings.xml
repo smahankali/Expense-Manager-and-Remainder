@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BillsManagerAnd Reminder</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Logout</string>
+    <string name="login">Mail id</string>
+    <string name="password">Password</string>
+    <string name="BtnDefine">Define an expense</string>
+    <string name="BtnAdd">Save a payment</string>
+    <string name="BtnRep">Expenses Report</string>
+    <string name="BtnExit">Exit</string>
+    <string name="BtnSaveExpense">Save New Expense</string>
+    <string name="BtnSavePayment">Save Payment</string>
+    <string name="BtnBillImage">Bill Image</string>
+    <string name="SelectExpenseFirst">Select Expense First:</string>
+    <string name="FromDateHint">From yyyy/MM/dd</string>
+    <string name="ToDateHint">To yyyy/MM/dd</string>
+    <string name="BtnGenerateReport">Generate Report</string>
+    <string name="BtnRemove">Remove</string>
+    <string name="CheckBoxSummery">Summery</string>
+    <string name="BtnClearBillImage">Clear Image</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5050005320107816~2559190681</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
